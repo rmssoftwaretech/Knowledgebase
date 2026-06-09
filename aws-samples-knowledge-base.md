@@ -38,6 +38,26 @@
 - **Risk**: Outdated dependencies or patterns.  
   **Mitigation**: Run dependency scanning and align with current AWS guidance.
 
+## Summary of LangChain, RAG, and LangGraph Projects in AWS Samples
+
+### LangChain-focused Projects
+- **[generative-ai-amazon-bedrock-langchain-agent-example](https://github.com/aws-samples/generative-ai-amazon-bedrock-langchain-agent-example)**  
+  Demonstrates a production-style conversational agent using Amazon Bedrock, LangChain, Amazon Lex, DynamoDB memory, and Kendra-backed retrieval.
+- **[langchain-agents](https://github.com/aws-samples/langchain-agents)**  
+  Provides TypeScript-based LangChain agent examples and patterns for tool-enabled agents on AWS.
+
+### RAG-focused Projects
+- **[rag-using-langchain-amazon-bedrock-and-opensearch](https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch)**  
+  Shows end-to-end RAG with Bedrock, Titan embeddings, and OpenSearch vector engine, including ingestion and query flows.
+- **[amazon-bedrock-rag-workshop](https://github.com/aws-samples/amazon-bedrock-rag-workshop)**  
+  Hands-on workshop covering core RAG patterns such as semantic search, metadata filtering, summaries, and re-ranking.
+
+### LangGraph-focused Projects
+- **[langgraph-agents-with-amazon-bedrock](https://github.com/aws-samples/langgraph-agents-with-amazon-bedrock)**  
+  Workshop with notebook labs on LangGraph agent design patterns including planning, tool use, memory, and human-in-the-loop.
+- **[sample-agentic-frameworks-on-aws](https://github.com/aws-samples/sample-agentic-frameworks-on-aws)**  
+  Collection of agentic reference implementations on AWS, including LangGraph examples and multi-agent orchestration patterns.
+
 ## References
 - AWS Samples on GitHub: https://github.com/aws-samples
 - AWS Documentation: https://docs.aws.amazon.com/
